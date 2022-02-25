@@ -13,11 +13,13 @@
     <section class="container my-5">
         <h4 class="text-center my-4 fw-bold" >Search Your Card</h4>
         <div class="mx-auto d-block w-100">
-            <form class="mx-auto input-group w-50">
-                <input class=" form-control input-field" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn text-white fw-bold search-btn" type="submit">Search</button>
-              </form>
+            <div class="mx-auto input-group w-50">
+                <input id="input-field"  class=" form-control input-field" type="search" placeholder="Search" aria-label="Search">
+                <button onclick="searchButton()" class="btn text-white fw-bold search-btn" type="button">Search</button>
+              </div>
         </div>
+
+        <p id="input-error" class="text-center text-danger my-3"></p>
     </section>
 
     <script src="app.js"></script>
