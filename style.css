@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #5f6670!important; */
+    /* color: white !important; */
+}
+.search-btn{
+    background: #9A0680!important;
+}
+.input-field{
+    outline: none!important;
+}
